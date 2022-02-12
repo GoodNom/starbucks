@@ -20,7 +20,7 @@ function to_ajax(){
 
     $.ajax({
         type : 'post',
-        url : '/test.jsp',
+        url : '/api/test',
         data : JSON.stringify(serializedValues2),
         dataType : 'json',
         error: function(xhr, status, error){
